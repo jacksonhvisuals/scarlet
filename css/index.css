@@ -22,12 +22,15 @@
 
 #heroName {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 #description {
     display: block;
     font-size: 1.0rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.54);
 }
 
 #profileText {
@@ -35,23 +38,15 @@
   padding-left: 5px;
   position: absolute;
   z-index: 100;
+  margin-top: 5px;
 }
-
+.toolbar-left {
+}
 /* Social Links */
-
 #socialLinkSection {
-    margin-top: 3px;
-    margin-bottom: 8px;
-    display: block;
-    padding-right: 10px;
-    padding-left: 10px;
+  float: right;
+  display: inline-block;
 }
-
-#socialLinkContent {
-    padding-top: 10px;
-    text-align: center;
-}
-
 .links {
     margin: 0 20px 0 20px;
     display: inline-block;
@@ -60,8 +55,10 @@
     border-radius: 3px;
     padding: 5px 10px 5px 10px;
 }
+
 .link_icon {
-  font-size: 32px;
+  font-size: 26px;
+  margin-top: 12px;
 }
 
 .links:hover {
