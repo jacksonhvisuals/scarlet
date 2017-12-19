@@ -55,6 +55,8 @@
     color: #212121;
     border-radius: 3px;
     padding: 6px;
+    padding-left: 12px;
+    padding-right: 0px;
 }
 
 .link_icon {
