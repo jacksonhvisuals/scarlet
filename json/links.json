@@ -1,22 +1,13 @@
 [
     {
-        "color": "red",
-        "icon": "web",
-        "url": "https://google.com"
+      "color": "skyblue",
+      "icon": "email-open",
+      "url": "mailto:google@gmail.com"
 	},
     {
-        "color": "red",
-        "icon": "web",
-        "url": "https://google.com"
-	},
-    {
-        "color": "red",
-        "icon": "web",
-        "url": "https://google.com"
-	},
-    {
-        "color": "red",
-        "icon": "web",
-        "url": "https://google.com"
+        "color": "#DDA0DD",
+        "icon": "dribbble",
+        "url": "https://dribbble.com"
 	}
+
 ]

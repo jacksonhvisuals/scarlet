@@ -8,7 +8,9 @@
   top: 0;
   height: 64px;
   width: 100%;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08), 0 1px 5px 0 rgba(0, 0, 0, 0.06), 0 3px 1px -2px rgba(0, 0, 0, 0.14);
+  z-index: 1;
 }
 
 /* Profile Image */
@@ -48,21 +50,15 @@
   display: inline-block;
 }
 .links {
-    margin: 0 20px 0 20px;
     display: inline-block;
     font-size: 32px;
     color: #212121;
     border-radius: 3px;
-    padding: 5px 10px 5px 10px;
+    padding: 6px;
 }
 
 .link_icon {
   font-size: 26px;
-  margin-top: 12px;
-}
-
-.links:hover {
-    background-color: lightgrey;
 }
 
 
@@ -89,7 +85,7 @@
 }
 
 #portfolioColumn {
-    padding: 24px;
+    z-index: -1;
 }
 
 /* Cards */
