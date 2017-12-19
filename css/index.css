@@ -1,6 +1,35 @@
 * {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
+/* Toolbar */
+
+#toolbar {
+  position: fixed;
+  top: 0;
+  height: 64px;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+
+#profileImage {
+    width: 56px;
+    height: 56px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+
+#heroName {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#description {
+    display: inline-block;
+    font-size: 1.0rem;
+}
 
 /* Social Links */
 
@@ -20,10 +49,13 @@
 .links {
     margin: 0 20px 0 20px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 32px;
     color: #212121;
     border-radius: 3px;
     padding: 5px 10px 5px 10px;
+}
+.link_icon {
+  font-size: 32px;
 }
 
 .links:hover {
@@ -31,24 +63,10 @@
 }
 
 
-/* Profile Image */
-
-#profileImage {
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    margin-top: calc(25%);
-}
-
 /* The various Texts */
 
-#heroName {
-    font-size: 2.2rem;
-}
 
-#description {
-    font-size: 1.3rem;
-}
+
 
 #portfolioTitle {
     margin-left: 8px;

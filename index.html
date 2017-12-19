@@ -20,43 +20,20 @@
 </head>
 
 <body style="background-color: #f5f6fa">
-    <div>
-        <div class="row">
-            <div id="profileColumn" class="col s12 l4 center">
-                <img id="profileImage" src="./images/profile.jpg" class="z-depth-3 circle responsive-img" />
-                
-                <h2 id="heroName" class="center-align">Your Name</h2>
-                <h4 id="description" class="center-align">Some description goes here.</h4>
+  <div id="toolbar">
+    <div class="container">
+      <div class="toolbar-left">
+        <img id="profileImage" src="./images/profile.jpg" class="z-depth-1 circle" />
+        <span id="heroName">Your Name</span>
+        <span id="description">Some description goes here.</span>
+        <a href="https://google.com" class="black-text valign-wrapper right" target="_blank"><i class="link_icon mdi mdi-web" style="color: red"></i></a>
+      </div>
 
-                <div id="socialLinkSection">
-                    <section class="tab">
-                        <div id="socialLinkContent">
-                            <!-- Your social links are dynamically generated from links.json! -->
-                        </div>
-                    </section>
-                </div>
-                
-                <!-- Replace the email address below with your own -->
-                <a id="contactButton" class="waves-effect waves-grey btn-flat" href="mailto:example@example.com"><p>Contact Me</p></a>
-                
-            </div>
-            
-            <div id="portfolioColumn" class="col s12 m12 l8">
-                
-                <div id="portfolioTitle">
-                    <p id="portfolioText">Portfolio</p>
-                    <!-- Type of work goes here -->
-                    <p id="firstCategoryText">My Work</p>
-                </div>
-                
-                <div class="row" id="portfolioItemContainer">
-                    <!-- Your work cards are dynamically generated from items.json! -->
-                </div>
-                
-            </div>
-        </div>
+
     </div>
-    
+  </div>
+
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
