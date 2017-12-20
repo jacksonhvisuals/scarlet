@@ -26,7 +26,7 @@ workRequest.onreadystatechange = function () {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
                 console.log(work.name);
-                html += "<div class=\"col s12 m6 l4\"><div class=\"card\"><div class=\"card-image waves-effect waves-block waves-light\"><img src=" + work.image + "></div><div class=\"card-content\"><span class=\"card-title grey-text text-darken-4\">" + work.name + "<a href=" + work.link + " target=\"_blank\" style=\"color: #000000\"><i class=\"material-icons right\">launch</i></a></span><p><span class=\"card-blurb\">" + work.description + "</span></p></div><div class=\"card-reveal\"><span class=\"card-title grey-text text-darken-4\">" + work.name + "<i class=\"material-icons right\">close</i></span><p></p></div></div></div>";
+                html += "<div class=\"col s12 m6 l4 xl3\"><div class=\"card\"><div class=\"card-image waves-effect waves-block waves-light\"><img src=" + work.image + "></div><div class=\"card-content\"><span class=\"card-title grey-text text-darken-4\">" + work.name + "<a href=" + work.link + " target=\"_blank\" style=\"color: #000000\"><i class=\"material-icons right\">launch</i></a></span><p><span class=\"card-blurb\">" + work.description + "</span></p></div><div class=\"card-reveal\"><span class=\"card-title grey-text text-darken-4\">" + work.name + "<i class=\"material-icons right\">close</i></span><p></p></div></div></div>";
             });
             work.innerHTML = html;
         }
