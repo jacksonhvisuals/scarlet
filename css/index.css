@@ -16,9 +16,11 @@ body {
 /* Profile Image */
 
 #profileImage {
-    width: 72px;
-    height: 72px;
-    padding: 8px;
+    width: 64px;
+    height: 64px;
+    padding: 6px;
+    margin-left: -6px;
+    margin-top: 4px;
     display: inline-block;
 }
 
@@ -37,7 +39,7 @@ body {
 
 #profileText {
   display: inline-block;
-  padding-left: 5px;
+  padding-left: 16px;
   position: absolute;
   z-index: 100;
   margin-top: 10px;
@@ -66,9 +68,6 @@ body {
 
 
 /* The various Texts */
-
-
-
 
 #portfolioTitle {
     margin-left: 8px;
