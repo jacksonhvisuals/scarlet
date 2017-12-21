@@ -1,6 +1,9 @@
+/* Robot Font EVERYWHERE! */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* Toolbar */
 
 #toolbar {
@@ -13,8 +16,6 @@ body {
   z-index: 1;
 }
 
-/* Profile Image */
-
 #profileImage {
     width: 60px;
     height: 60px;
@@ -24,7 +25,7 @@ body {
     display: inline-block;
 }
 
-#heroName {
+#name {
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -37,7 +38,7 @@ body {
     color: rgba(0,0,0,0.54);
 }
 
-#profileText {
+#toolbarText {
   display: inline-block;
   padding-left: 12px;
   position: absolute;
@@ -66,61 +67,13 @@ body {
   font-size: 26px;
 }
 
-@media screen and (max-width: 600px) {
-  #profileImage {
-      width: 60px;
-      height: 60px;
-      margin: 18px;
-      margin-left: 0px;
-      margin-right: 0px;
-      display: inline-block;
-  }
-
-  #heroName {
-      display: block;
-      font-size: 20px;
-      font-weight: 600;
-  }
-
-  #description {
-      display: none;
-  }
-
-  #profileText {
-    display: inline-block;
-    padding-left: 12px;
-    position: absolute;
-    z-index: 100;
-    margin-top: 32px;
-  }
-}
-
-/* The various Texts */
-
-#portfolioTitle {
-    margin-left: 8px;
-}
-
-#portfolioText {
-    margin-top: 0px;
-    margin-bottom: -30px;
-    font-weight: 500;
-    font-size: 2.2rem;
-}
-
-#firstCategoryText {
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 1.4rem;
-}
+/* Cards */
 
 #portfolioColumn {
     z-index: -1;
 }
 
-/* Cards */
-.card-main-image,
-.card-image {
+.card-main-image, .card-image {
     border-top-left-radius: 2px !important;
     border-top-right-radius: 2px !important;
 }
@@ -164,22 +117,18 @@ body {
     }
 }
 
-#contactButton {
-    border: 2px solid black;
-    font-weight: 600;
-    color: black;
-    margin-top: 15px;
+@media screen and (max-width: 600px) {
+  #name {
+      font-size: 20px;
+  }
+  #description {
+      display: none;
+  }
+  #toolbarText {
+    margin-top: 32px;
+  }
 }
 
-#contactButton p {
-    margin: 0px;
-    margin-top: -1px;
-}
-
-#contactButton:hover {
-    color: white;
-    background-color: black;
-}
 /* Colors */
 
 .primary-light {
