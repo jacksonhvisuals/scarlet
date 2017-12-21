@@ -33,15 +33,14 @@ body {
 
 #name {
     display: block;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 }
 
 #description {
     display: block;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgba(0,0,0,0.54);
+    font-size: 18px;
+    font-weight: 300;
 }
 
 #toolbarText {
@@ -49,7 +48,7 @@ body {
   padding-left: 12px;
   position: absolute;
   z-index: 100;
-  margin-top: 24px;
+  margin-top: 19px;
 }
 
 #toolbarcontainer {
@@ -69,8 +68,8 @@ body {
     color: #212121;
     border-radius: 3px;
     padding: 6px;
-    padding-left: 18px;
-    padding-right: 0px;
+    margin-left: 18px;
+    margin-right: -6px;
     margin-top: 16px;
 }
 
