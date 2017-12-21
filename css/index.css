@@ -26,13 +26,13 @@ body {
 
 #heroName {
     display: block;
-    font-size: 1.3rem;
+    font-size: 24px;
     font-weight: 600;
 }
 
 #description {
     display: block;
-    font-size: 1.0rem;
+    font-size: 18px;
     font-weight: 600;
     color: rgba(0,0,0,0.54);
 }
