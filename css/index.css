@@ -1,5 +1,5 @@
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /* Toolbar */
 
@@ -27,13 +27,13 @@ body {
 #heroName {
     display: block;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #description {
     display: block;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgba(0,0,0,0.54);
 }
 
@@ -126,7 +126,7 @@ body {
 }
 
 .card-title {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 .card-blurb {
