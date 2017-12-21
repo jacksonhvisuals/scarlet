@@ -1,3 +1,9 @@
+/*
+  Scarlet - Index.css
+   This be the main stylesheet responsible for
+   most of the custom styles.
+*/
+
 /* Robot Font EVERYWHERE! */
 
 body {
@@ -46,6 +52,11 @@ body {
   margin-top: 24px;
 }
 
+#toolbarcontainer {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 /* Social Links */
 
 #socialLinkSection {
@@ -71,6 +82,14 @@ body {
 
 #portfolioColumn {
     z-index: -1;
+}
+#maincontainer {
+  z-index: 0;
+  position: relative;
+  margin-top: 92px;
+  padding-left: calc(18px - 0.75rem);
+  padding-right: calc(18px - 0.75rem);
+  padding-top: calc(24px - 0.5rem)
 }
 
 .card-main-image, .card-image {

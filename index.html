@@ -20,9 +20,9 @@
 </head>
 
 <body style="background-color: #f5f5f5">
-  <div>
+  <!-- This is the toolbar that sits above everything -->
   <div id="toolbar">
-    <div class="container-div" style="padding-left: 18px; padding-right: 18px;">
+    <div id="toolbarcontainer">
       <div class="toolbar-left">
         <img id="profileImage" src="./images/profile.jpg" class="circle" />
         <div id="toolbarText">
@@ -33,21 +33,21 @@
        <div id="socialLinkSection">
            <section class="tab">
                <div id="socialLinkContent">
-                   <!-- Your social links are dynamically generated from links.json! -->
+                   <!-- Your social link icons are dynamically generated from links.json! -->
                </div>
            </section>
        </div>
     </div>
     </div>
   </div>
-  <div class="container-div" style="z-index: 0; position: relative; margin-top: 92px; padding-left: calc(18px - 0.75rem); padding-right: calc(18px - 0.75rem); padding-top: calc(24px - 0.5rem)">
+
+  <div id="maincontainer">
     <div id="portfolioColumn" class="col s12 m12 l12">
       <div class="row" id="portfolioItemContainer">
         <!-- Your work cards are dynamically generated from items.json! -->
       </div>
     </div>
   </div>
-</div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>

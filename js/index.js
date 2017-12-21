@@ -1,3 +1,9 @@
+/*
+  Scarlet - Index.js
+   This file automatically generates the links in the toolbar
+   and the cards for the main page.
+*/
+
 var work = document.getElementById("portfolioItemContainer");
 var workRequest = new XMLHttpRequest();
 
