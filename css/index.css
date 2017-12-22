@@ -33,13 +33,13 @@ body {
 
 #name {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 #description {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -48,7 +48,7 @@ body {
   padding-left: 12px;
   position: absolute;
   z-index: 100;
-  margin-top: 19px;
+  margin-top: 22px;
 }
 
 #toolbarcontainer {
@@ -143,7 +143,7 @@ body {
       display: none;
   }
   #toolbarText {
-    margin-top: 32px;
+    margin-top: 34px;
   }
 }
 
