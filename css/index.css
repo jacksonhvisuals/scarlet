@@ -136,6 +136,17 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  #toolbar {
+    height: 82px;
+  }
+
+  #profileImage {
+      width: 50px;
+      height: 50px;
+      margin: 16px;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
   #name {
       font-size: 20px;
   }
@@ -143,7 +154,33 @@ body {
       display: none;
   }
   #toolbarText {
-    margin-top: 32px;
+    margin-top: 24px;
+  }
+  #toolbarcontainer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #maincontainer {
+    position: relative;
+    margin-top: 82px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .links {
+      padding: 6px;
+      margin-left: 12px;
+      margin-right: -6px;
+      margin-top: 6px;
+  }
+  .link_icon {
+    font-size: 22px;
+  }
+  #portfolioColumn {
+    padding: 16px;
+    padding-left: calc(16px - 0.75rem);
+    padding-right: calc(16px - 0.75rem);
+    padding-top: calc(16px - 0.5rem) ;
   }
 }
 
