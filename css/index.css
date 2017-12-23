@@ -63,14 +63,14 @@ body {
 }
 
 .links {
-    display: inline-block;
-    font-size: 32px;
-    color: #212121;
-    border-radius: 3px;
-    padding: 6px;
-    margin-left: 18px;
-    margin-right: -6px;
-    margin-top: 16px;
+  display: inline-block;
+  font-size: 32px;
+  color: #212121;
+  border-radius: 3px;
+  padding: 6px;
+  margin-left: 18px;
+  margin-right: -6px;
+  margin-top: 16px;
 }
 
 .link_icon {
@@ -92,20 +92,20 @@ body {
 }
 
 .card-main-image, .card-image {
-    border-top-left-radius: 2px !important;
-    border-top-right-radius: 2px !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 
 .card-title {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .card-blurb {
-    color: rgba(0,0,0,0.54);
+  color: rgba(0,0,0,0.54);
 }
 
 .card {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 .card-content {
