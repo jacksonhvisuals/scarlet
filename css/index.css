@@ -114,6 +114,21 @@ body {
     border-top: 1px grey solid;
 }
 
+/* Footer */
+#footercontainer {
+    padding: 18px;
+    padding-top: 0px;
+    
+}
+#footertext {
+    color: #aaa;
+}
+
+#footertext > a {
+    color: #aaa !important;
+    text-decoration: underline;
+}
+
 /* Breakpoint resizing */
 @media only screen and (max-width: 1260px) {
     #portfolioText {
