@@ -1,7 +1,7 @@
 # Scarlet
 A free, material-design template for the web - sibling to Quicksilver
 
-[See demo](https://jacksonhayes.me/scarlet)
+[See demo](https://jacksonhayes.xyz/scarlet)
 
 ## Supported Browsers:
 All?
