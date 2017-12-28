@@ -39,4 +39,4 @@ For changelogs, check out [the Releases section of Scarlet](https://github.com/j
 Simply fork, make your changes/contributions, and create a pull request!
 
 ## Credits
-None, atm.
+HUGE thanks to [Kevin Aguilar](http://kevaguilar.com/) for designing the entire thing!
