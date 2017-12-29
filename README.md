@@ -23,9 +23,9 @@ All?
 
 - Add a favicon from realfavicongenerator.net.
 
-- After that, open up the /json folder and take a look at links.json. Should be fairly straightforward, but here's a little explanation: 'color' is the color of the icon. 'icon' is the name of the icon from materialdesignicons.com. Make sure you get the correct spelling for the icon (you don't need the 'mdi-' part, the script automatically adds that). url is... the URL.
+- After that, open up the /json folder and take a look at links.json. Should be fairly straightforward, but here's a little explanation: 'color' is the color of the icon. 'icon' is the name of the icon from [materialdesignicons.com](https://materialdesignicons.com/). Make sure you get the correct spelling for the icon (you don't need the 'mdi-' part, the script automatically adds that). url is... the URL.
 
-- After you've edited the links.json file, you're ready to move on to items.json. This is pretty similar to the links.json file. A couple things to note, however. First, you'll need to supply an image for each item. Second, you HAVE to have all of said images match in EXACT dimensions. I suggest 1920x1080. If it's 1920x1081, things break. It's just a constraint of the MaterializeCSS framework that we're using.
+- After you've edited the links.json file, you're ready to move on to items.json. This is pretty similar to the links.json file. A couple things to note, however. First, you'll need to supply an image for each item. Second, you HAVE to have all of said images match in EXACT dimensions. I suggest 1920x1080. If it's 1920x1081, things break. It's just a constraint of the [MaterializeCSS](http://materializecss.com/) framework that we're using.
 
 - If you need to delete or add a link or work-item to your new Scarlet website, it's super easy, thanks to the JSON implementation.
 
